@@ -24,7 +24,7 @@ h5{background: #D19F2A; color:white; border-radius:3px; padding:3px;}
 ##### POI结果省市比较：广东省总数居冠
 单就省及直辖市为比较单位，广东省居冠，符合其互联网人口大省。
 
-![省市比较](VR_top10p.jpg)
+![省市比较]({{ "/images/VR_top10p.jpg" | absolute_url }})
 
 ##### POI结果城市比较：上海市居冠
 
@@ -32,7 +32,7 @@ h5{background: #D19F2A; color:white; border-radius:3px; padding:3px;}
 - 上海市引领最大两类别：体育休闲及购物服务。
 - 广东省深圳的公司企业多，展示深圳的私部门在此领域创新的重要地位
 
-![城市比较](VR_top10city.jpg)
+![城市比较]({{ "/images/VR_top10city.jpg" | absolute_url }})
 
 </div> 
 <div class="col-sm-5" markdown="1" ><!-- right -->
@@ -42,7 +42,7 @@ h5{background: #D19F2A; color:white; border-radius:3px; padding:3px;}
 - 百度地图：<i class="fa fa-map-marker" aria-hidden="true"></i> 388笔
 
 ##### POI分布：珠江三角洲
-![高德地图数据-珠江三角洲](VR_map_Pearl_Delta.jpg)
+![高德地图数据-珠江三角洲]({{ "/images/VR_map_Pearl_Delta.jpg" | absolute_url }})
 
 * 就珠江三角洲地区来看，数量最多的体育休闲服务分布最广。
 * 公司企业集中在深圳；生活服务多在广州，东莞两类各一点。
