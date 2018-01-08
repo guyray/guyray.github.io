@@ -15,7 +15,8 @@ ads: false
 > 专业教师——廖汉腾，副教授（网络与新媒体专业），开设课程：《网络新媒体技术与协作》、《信息可视化设计》、《大数据统计》、《Python语言》、《网页设计与制作》、《网站运营与管理实践》等。
 
 
-<script src='https://unpkg.com/mermaid@7.1.2/dist/mermaid.min.js'></script>  
+<script src='https://unpkg.com/mermaid@7.1.2/dist/mermaid.min.js'></script>
+<script>mermaid.initialize({startOnLoad:true});</script>
 ### 廖汉腾
 
 [廖汉腾任中山大学南方学院网络与新媒体专业副教授](http://wcy.nfu.edu.cn/zh/学院概况/师资队伍/廖汉腾/)，新媒体研究中心代理主任。
@@ -30,39 +31,40 @@ ads: false
 专业核心课為必修：以三门基础概论课开始，在建基的《<span  style="background-color:yellow;">网页设计与制作</span>》与《Python语言》的两门核心课打下坚实文理多学科基础，开啟分析（如《新媒体分析和用户体验》、《大数据统计》、《大数据统计》）、交互应用（如《互动技术与应用》、《媒介融合/全媒体信息编辑》、《信息可视化设计》、《数字音视频编辑》等）两扇专业之门。
 
 <style>
-#网页设计与制作 > g > g > * {
+#Web > g > g > * {
     color: darkblue;
     font-weight: bolder;
     font-family: sans-serif;
     word-wrap: break-word;
     white-space: pre-wrap !important;
 }
-#网页设计与制作 > rect {
+#Web > rect {
 	fill: yellow !important;
 }
 
 </style>
 <div class="mermaid">
 graph LR;
-新媒体概论 --> 网页设计与制作
-新媒体概论 --> 新媒体分析和用户体验
-新媒体概论 --> 媒介融合/全媒体信息编辑
-网络新媒体技术与协作 --> 网页设计与制作
-网络新媒体技术与协作 --> Python语言
-网络新媒体技术与协作 --> 信息可视化设计
-网络新媒体技术与协作 --> 数字音视频编辑
-传播学概论 --> 新媒体分析和用户体验
-传播学概论 --> 网页设计与制作
-传播学概论 --> 媒介融合/全媒体信息编辑
-Python语言 --> 信息可视化设计
-Python语言 --> 大数据统计
-Python语言 --> 新媒体分析和用户体验
-网页设计与制作 --> 新媒体分析和用户体验
-网页设计与制作 --> 互动技术与应用
-网页设计与制作 --> 信息可视化设计
-网页设计与制作 --> 媒介融合/全媒体信息编辑
-网页设计与制作 --> 数字音视频编辑
-网页设计与制作 --> 大数据统计
+Tech[网络新媒体技术与协作] --> Web[网页设计与制作]
+Tech --> Python[Python语言]
+Tech --> InfoVis[信息可视化设计]
+Web --> UX[新媒体分析和用户体验]
+Web --> BigData[大数据统计]
+Web --> HCI[互动技术与应用]
+Web --> InfoVis
+Web --> Convergence[媒介融合/全媒体信息编辑]
+Web --> 数字音视频编辑
+Theory[传播学概论] --> Web
+Theory --> Convergence
+Theory --> BigData
+Python --> InfoVis
+Python --> BigData
+Python --> UX
+Intro[新媒体概论] --> Convergence
+Intro --> HCI
+Intro --> UX
+Intro --> Web
+
 </div>
 
 
