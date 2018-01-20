@@ -24,6 +24,7 @@ gems:
   - jekyll-gist
   - jekyll-feed 
   - jekyll-mermaid
+  - github-pages
   
 mermaid:
   src: 'https://unpkg.com/mermaid@7.1.2/dist/mermaid.min.js'
